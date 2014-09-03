@@ -3,7 +3,14 @@
 <head lang="en">
 	<meta charset="UTF-8">
 	<title></title>
-
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css" />
+	<noscript>
+		<link rel="stylesheet" href="css/skel-noscript.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-wide.css" />
+	</noscript>
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 </head>
 <body >
 <!-- Header -->
@@ -26,6 +33,8 @@
 				<li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="fa fa-user">About Me</span></a></li>
 				<li><a href="#skills" id="skills-link" class="skel-panels-ignoreHref"><span class="fa fa-star">Skills</span></a></li>
 				<li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-envelope">Contact</span></a></li>
+				<li><a href="#explore" class="skel-panels-ignoreHref"><span class="fa fa-envelope">prova explore</span></a></li>
+				<li><a href="#/showWorkDetailsController/1" class="skel-panels-ignoreHref"><span class="fa fa-envelope">prova workdetail</span></a></li>
 			</ul>
 		</nav>
 
@@ -52,6 +61,7 @@
 
 	<!-- Intro -->
 	<section id="top" class="one">
+		<div ng-view></div>
 		<div class="container">
 
 			<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
@@ -216,10 +226,10 @@
 </div>
 
 </body>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-route.min.js"></script>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-resource.min.js"></script>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-animate.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-route.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-resource.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-animate.min.js"></script>
 <script src="app/module.js"></script>
 <script src="app/controllers/worksExploreController.js"></script>
 </html>
