@@ -8,7 +8,7 @@ app.config(function($routeProvider){
     })
     .when("/workDetails/:workId",{
     	controller: "showWorkDetailsController",
-    	templateUrl: "/app/view/workDetails.html"
+    	templateUrl: "/app/views/workDetails.html"
     });
     $routeProvider.otherwise({ redirectTo: "/" });
 
