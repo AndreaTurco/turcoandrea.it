@@ -1,5 +1,8 @@
-<div style="display: block; border-bottom: 1px solid black; padding: 15px 25%;">
-    <div ng-repeat="work in allWorks">
+<div style="display: block; border-right: 1px solid black; width: 25%;">
+    <input ng-model="filtraWork">
+</div>
+<div style="display: block; border-bottom: 1px solid black;  width: 75%;">
+    <div ng-repeat="work in allWorks | filter:filtraWork">
     	<h2>{{work.name}}</h2>
         <h5>{{work.subtitle}}</h5>
     </div>
