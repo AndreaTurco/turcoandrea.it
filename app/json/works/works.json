@@ -1,47 +1,57 @@
 [
     {
         "id": 0, 
-        "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg", 
-        "name": "Motorola XOOM\u2122 with Wi-Fi", 
-        "subtitle" : "subtitle subtitle",
-        "duration" : "",
-        "description": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb).",
-        "prog_languages" : ""
+        "imageUrl": "img/loghi_azienda/.png",
+        "name": "Scailab - Consulting to Yoox",
+        "subtitle" : "YOOX Group is the global Internet retailing partner for leading fashion & design brands.",
+        "duration" : "March 2014 - Actual",
+        "description": "It has established itself amongst the market leaders with the multi-brand stores yoox.com, thecorner.com and shoescribe.com, as well as with numerous mono-brand online stores all “Powered by YOOX Group.” The Group has offices and operations in the United States, Europe, Japan, China and Hong Kong and delivers to more than 100 countries worldwide.YOOX Group is listed on the Milan Stock Exchange as YOOX.MI",
+        "prog_languages" : ["8","2","7","12","1","3","0","4","13"],
+        "framework" : "Yoox js framework",
+        "role": "frontend developer and web designer"
     }, 
     {
         "id": 1, 
-        "imageUrl": "img/phones/motorola-xoom.0.jpg", 
-        "name": "MOTOROLA XOOM\u2122", 
-        "subtitle" : "subtitle subtitle",
-        "duration" : "",
-        "description": "The Next, Next Generation\n\nExperience the future with MOTOROLA XOOM, the world's first tablet powered by Android 3.0 (Honeycomb).",
-        "prog_languages" : ""
-    }, 
+        "imageUrl": "img/loghi_azienda/setin.png",
+        "name": "SE.T.IN. SNC",
+        "subtitle" : "the company is focused on provide cartographical processing services and territory representation for institutions and private",
+        "duration" : "20 October 2013 - 15 December 2013",
+        "description": "improve the web portal where users have access to all the company's services",
+        "prog_languages" : ["2","0","1","9","14"],
+        "framework" : "",
+        "role": "web developer"
+    },
     {
         "id": 2, 
-        "imageUrl": "img/phones/motorola-atrix-4g.0.jpg", 
-        "name": "MOTOROLA ATRIX\u2122 4G", 
+        "imageUrl": "img/loghi_azienda/tian.png",
+        "name": "TIAN S.R.L.",
         "subtitle" : "subtitle subtitle",
         "duration" : "",
-        "description": "MOTOROLA ATRIX 4G the world's most powerful smartphone.",
-        "prog_languages" : ""
+        "description": "creation of the 'marketplace' http://www.btoble.com/ , made with the programming languages as php, ajax, jquery, css, javascript,html. its layout was made with twitter bootstrap library.with the same techniques is in developing a new swction of the web portal http://www.lavoroeformazione.it/ . here is possible to see a little part : http://www.lavoroeformazione.it/lef_social/ricerca-corsi-master.php .just published another project developed with the same techniques of the other projects but with the addition of a phpframework, codeigniter: http://www.franchisingristorazione.it/",
+        "prog_languages" : ["0","1","2","3","7","8","9","10","11"],
+        "framework" : ["0"],
+        "role": "web developer"
     }, 
     {
         "id": 3, 
-        "imageUrl": "img/phones/dell-streak-7.0.jpg", 
-        "name": "Dell Streak 7", 
-        "subtitle" : "subtitle subtitle",
-        "duration" : "",
-        "description": "Introducing Dell\u2122 Streak 7. Share photos, videos and movies together. It\u2019s small enough to carry around, big enough to gather around.",
-        "prog_languages" : ""
+        "imageUrl": "img/loghi_azienda/ereall.png",
+        "name": "E-REALL SPORT ",
+        "subtitle" : "create platform for simplify the publishing of new auctions on ebay",
+        "duration" : "1 October 2011 - 1 August 2012",
+        "description": "CREATE PLATFORM FOR SIMPLIFY THE PUBLISHING OF NEW AUCTIONS ON EBAY",
+        "prog_languages" : ["0","1","2","3","4","7","8","9","10"],
+        "framework" : ["2"],
+        "role": "web developer"
     }, 
     {
         "id": 4, 
-        "imageUrl": "img/phones/samsung-gem.0.jpg", 
-        "name": "Samsung Gem\u2122", 
-        "subtitle" : "subtitle subtitle",
-        "duration" : "",
-        "description": "The Samsung Gem\u2122 brings you everything that you would expect and more from a touch display smart phone \u2013 more apps, more features and a more affordable price.",
-        "prog_languages" : ""
+        "imageUrl": "img/loghi_azienda/freelancer.png",
+        "name": "Freelancer",
+        "subtitle" : "development and management of web sites",
+        "duration" : "jenuary 2007",
+        "description": "",
+        "prog_languages" : ["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14"],
+        "framework" : ["0","1","2","3","4","5","6","7"],
+        "role": "web and mobile developer"
     }
 ]
