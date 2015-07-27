@@ -72,20 +72,37 @@
         </div>
     </section>
 
-
     <section id="skills" ng-controller="worksExploreCtrl">
-        <header style="display: block;">
-            <div style="display: inline-block; width: 25%; float: left;">
-                Search throw works:
-            </div>
-            <div style="display: inline-block; width: 75%; float: left;">
+        <header layout="row" layout-align="center end">
+            <md-input-container flex="75" class="md-default-theme">
+                <label for="input_169">Search throw works:</label>
+                <input ng-model="filtraWork" class="ng-pristine ng-valid md-input ng-touched" id="input_169" tabindex="0" aria-invalid="false">
+            </md-input-container>
+           <!-- <div style="display: inline-block; width: 75%; float: left;">
                 <input ng-model="filtraWork">
-            </div>
+            </div>-->
         </header>
-        <article class="singleWork" ng-repeat="work in allWorks | filter:filtraWork">
-            <h2>{{work.name}}</h2>
-            <h5>{{work.subtitle}}</h5>
-        </article>
+        <section id="articleContainer">
+            <md-content class="md-padding md-default-theme" layout="row" layout-wrap>
+
+                <md-card class="md-default-theme" ng-repeat="work in allWorks | filter:filtraWork" flex="30" layout="column" layout-align="space-between center">
+                    <md-card-content>
+                        <h2 class="md-title">{{work.name}}</h2>
+                        <p>{{work.subtitle}}</p>
+                    </md-card-content>
+                    <div class="md-actions">
+                        <button class="md-raised md-primary md-button md-default-theme" ng-transclude>
+                            <span class="ng-scope">Details</span>
+                            <div class="md-ripple-container"></div></button>
+                    </div>
+                </md-card>
+            </md-content>
+               <!-- <article class="singleWork" ng-repeat="work in allWorks | filter:filtraWork">
+                    <h2>{{work.name}}</h2>
+                    <h5>{{work.subtitle}}</h5>
+                </article>-->
+        </section>
+
     </section>
 
     <div ng-view></div>
@@ -111,8 +128,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-resource.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-resource.min.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.js"></script>
 

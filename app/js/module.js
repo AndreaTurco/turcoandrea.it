@@ -3,7 +3,8 @@ var app = angular.module('worksBlog', [
     'worksExploreController',
 
     'ngRoute',
-    'ngResource'
+    'ngResource',
+    "ngMaterial"
 ]);
 
 app.config(['$routeProvider',
