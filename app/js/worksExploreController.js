@@ -16,13 +16,11 @@ worksExploreController.controller('worksExploreCtrl', ['$scope', '$http',
 	 * report completion in console
 	 */
 	function buildToggler(navID) {
-        var body= $('body');
 		var debounceFn =  $mdUtil.debounce(function(){
 			$mdSidenav(navID)
 				.toggle()
 				.then(function () {
 					$log.debug("toggle " + navID + " is done");
-                    //body.toggleClass('overflowBody');
 				});
 		},300);
 		return debounceFn;

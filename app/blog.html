@@ -72,16 +72,17 @@
 
     <!-- Main -->
     <div class="rightWrapper" flex-gt-md="70" flex="95">
-        <div class="menuToggle" ng-controller="AppCtrl" layout="row">
-            <md-content layout-padding>
-                <md-button ng-click="toggleLeft()" class="md-raised md-primary" hide-gt-md>
-                    Open Menu
+        <div class="menuToggle" ng-controller="AppCtrl" layout="row" style="position: fixed; z-index: 1;">
+            <md-content>
+                <md-button ng-click="toggleLeft()"  class="md-fab md-primary md-hue-2" aria-label="Comment">
+                    <md-icon md-svg-src="../css/images/toggle.svg"></md-icon>
                 </md-button>
             </md-content>
         </div>
+        <div class="spaceTop" style="height: 80px;" hide-gt-md></div>
         <section class="one">
                 <header>
-                    <h2 class="alt">Search throw my <strong><i>works experience and skills</i></strong>.</h2>
+                    <h3 class="alt">Section made in Angular.js where you cand search throw my work experience.</h3>
                 </header>
                 <!--<footer>-->
                     <!--<a href="#portfolio" class="button scrolly">WHAT I'VE WORKED ON</a>-->
