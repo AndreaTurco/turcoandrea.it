@@ -14,7 +14,7 @@ app.config(['$routeProvider',
             controller: "worksExploreCtrl",
             templateUrl: "views/worksresults.html"
         })
-        .when("/workDetails/:workId",{
+        .when("/app/blog.html/#workDetails/:workId",{
             controller: "showWorkDetailsCtrl",
             templateUrl: "views/workDetails.html"
         });

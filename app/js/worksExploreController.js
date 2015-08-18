@@ -18,10 +18,7 @@ worksExploreController.controller('worksExploreCtrl', ['$scope', '$http',
 	function buildToggler(navID) {
 		var debounceFn =  $mdUtil.debounce(function(){
 			$mdSidenav(navID)
-				.toggle()
-				.then(function () {
-					$log.debug("toggle " + navID + " is done");
-				});
+				.toggle();
 		},300);
 		return debounceFn;
 	}
