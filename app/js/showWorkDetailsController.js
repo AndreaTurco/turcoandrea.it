@@ -7,6 +7,7 @@ showWorkDetailsController.controller("showWorkDetailsCtrl", ['$scope', '$routePa
 			$.each( data ,  function( key, value ){
 				if( value.id == workId ){
 					$scope.work = value;
+                    $('html, body').animate({ scrollTop: $(document).height() }, 1000);
 				}
 			});
 		} );
