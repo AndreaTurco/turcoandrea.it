@@ -30,7 +30,7 @@ worksExploreController
             workService.setId(workId);
             $mdDialog.show({
                 controller: "showWorkDetailsDialogCtrl",
-                templateUrl: "views/workDetails.html",
+                templateUrl: "views/workDetailsModal.html",
                 parent: angular.element(document.body),
                 targetEvent: ev,
                 clickOutsideToClose: true

@@ -1,0 +1,33 @@
+<md-dialog aria-label="work details" style="max-width: 600px; margin: 0 auto;">
+    <form>
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2 style="color: white">{{work.name}}</h2>
+                <span flex></span>
+            </div>
+        </md-toolbar>
+        <md-dialog-content style="max-width:600px;max-height:610px; ">
+            <h5>{{work.subtitle}}</h5>
+            <span flex></span>
+            <div ng-show="work.role != ''">
+                <h3>Role</h3>
+                <h4>{{work.role}}</h4>
+            </div>
+            <div ng-show="work.duration != ''">
+                <h3>Duration</h3>
+                <h4>{{work.duration}}</h4>
+            </div>
+            <div ng-show="work.description != ''">
+                <h3>Description</h3>
+                <h4>{{work.description}}</h4>
+            </div>
+        </md-dialog-content>
+        <div class="md-actions" layout="row">
+            <md-button href="http://en.wikipedia.org/wiki/Mango" target="_blank" hide show-md>
+                More on Wikipedia
+            </md-button>
+            <span flex></span>
+        </div>
+    </form>
+</md-dialog>
+
