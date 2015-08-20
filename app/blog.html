@@ -107,11 +107,14 @@
                             <h2 class="md-title">{{work.name}}</h2>
                             <p>{{work.subtitle}}</p>
                         </md-card-content>
-                        <div class="md-actions">
-                            <a class="md-raised md-primary md-button md-default-theme" href="blog.html/#workDetails/:{{work.id}}">
+                        <div class="md-actions" ng-controller="AppCtrl">
+                            <a class="md-raised md-primary md-button md-default-theme" href="#/workDetails/{{work.id}}">
                                 <span class="ng-scope">Details</span>
                                 <div class="md-ripple-container"></div>
                             </a>
+                            <md-button class="md-primary md-raised" ng-click="showAdvanced($event, work.id)" flex flex-md="100">
+                                Custom Dialog
+                            </md-button>
                         </div>
                     </md-card>
                 </md-content>
@@ -152,6 +155,7 @@
 <script src="js/module.js"></script>
 <script src="js/worksExploreController.js"></script>
 <script src="js/showWorkDetailsController.js"></script>
+<script src="js/showWorkDetailsInDialogController.js"></script>
 
 
 <!--[if lte IE 8]><script src="../js/html5shiv.js"></script><![endif]-->
